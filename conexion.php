@@ -10,7 +10,7 @@ $tabla="";
      $conex->exec("SET CHARACTER SET utf8");
 	echo "Conexion exitosa";
 	} catch (Exception $e) {
-	
+	 echo "hubo un error".e;
 	}
 
 
